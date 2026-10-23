@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт кофейни с меню">
+    <meta name="keywords" content="кофе, кофейня">
+    <meta name="author" content="Пустынников Владимир">
+    <title>NOIR COFFEE</title>
+    <link rel="icon" type="image/png" href="image/bg_and_icon_img/favicon.svg">
+    <link rel="stylesheet" href="styles/style.css"> <!-- Подключение файла css -->
+    <link rel="stylesheet" href="styles/responsive.css">
+    <script src="script.js" defer></script> <!-- Подключение файла js -->
+</head>
+
+<body>
+    <header>
+        <!-- Шапка сайта -->
+        <div class="logo">NOIR COFFEE</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#hero">Главная</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Основная часть сайта -->
+        <section id="hero">
+            <div class="logo-hero">
+                Кофе с
+                <span>характером</span>
+            </div>
+            <div class="logo-inf">
+                Ароматный кофе, уютная атмосфера и лучшие вкусы - всё, что нужно для хорошего дня.
+            </div>
+            <div class="btn">
+                <a href="#menu">Посмотреть меню</a>
+            </div>
+        </section>
+        <section id="menu">
+            <div class="texts-menu">
+                <div class="left-text">
+                    <div class="logo-menu">Наше меню</div>
+                    <div class="inf-menu">
+                        Мы готовим кофе из лучших, отбирая
+                        каждый сорт с особой заботой. В нашем меню есть
+                        классика, авторские напитки и чай.
+                    </div>
+                </div>
+                <div class="right-text">
+                    Откройте для себя
+                    новый вкус кофе
+                </div>
+            </div>
+            <div class="block-menu">
+                <div class="nav-menu">
+                    <ul>
+                        <li><a href="#menu-coffee">Кофе</a></li>
+                        <li><a href="#menu-tea">Чай</a></li>
+                        <li><a href="#menu-drinks">Авторские напитки</a></li>
+                        <li><a href="#menu-deserts">Десерты</a></li>
+                    </ul>
+                </div>
+                <div class="elements">
+                    <div id="menu-coffee">
+                        <div class="element-menu">
+                            <img src="image/coffee_img/espresso.jpg" alt="espresso" class="menu-img">
+                            <div class="name-text">Эспрессо</div>
+                            <div class="inf-text">
+                                Классический итальянский
+                                кофе с натуральным вкусом
+                                и плотной пенкой
+                            </div>
+                            <div class="price-text">150 руб.</div>
+                        </div>
+                        <div class="element-menu">
+                            <img src="image/coffee_img/americano.jpg" alt="americano" class="menu-img">
+                            <div class="name-text">Американо</div>
+                            <div class="inf-text">
+                                Эспрессо, разбавленный
+                                горячей водой. Мягкий вкус
+                                и приятная горечь.
+                            </div>
+                            <div class="price-text">170 руб.</div>
+                        </div>
+                        <div class="element-menu">
+                            <img src="image/coffee_img/latte.jpg" alt="latte" class="menu-img">
+                            <div class="name-text">Латте</div>
+                            <div class="inf-text">
+                                Эспрессо с молоком
+                                и нежной молочной пенкой.
+                            </div>
+                            <div class="price-text">220 руб.</div>
+                        </div>
+                        <div class="element-menu">
+                            <img src="image/coffee_img/cappuccino.jpg" alt="cappuccino" class="menu-img">
+                            <div class="name-text">Капучино</div>
+                            <div class="inf-text">
+                                Эспрессо, горячее молоко
+                                и воздушная пенка.
+                            </div>
+                            <div class="price-text">200 руб.</div>
+                        </div>
+                    </div>
+                    <div id="menu-tea">
+                        <div class="element-menu">
+                            <img src="image/tea_img/earl_gray.png" alt="espresso" class="menu-img">
+                            <div class="name-text">Эрл Грей</div>
+                            <div class="inf-text">
+                                Чёрный чай с бергамотом,
+                                лёгкими цитрусовыми нотами
+                                и мягким послевкусием.
+                            </div>
+                            <div class="price-text">280 руб.</div>
+                        </div>
+                        <div class="element-menu">
+                            <img src="image/tea_img/jasmineMist.png" alt="espresso" class="menu-img">
+                            <div class="name-text">Jasmine Mist</div>
+                            <div class="inf-text">
+                                Зелёный чай с жасмином,
+                                нежный аромат и лёгкая
+                                цветочная горчинка.
+                            </div>
+                            <div class="price-text">260 руб.</div>
+                        </div>
+                        <div class="element-menu">
+                            <img src="image/tea_img/ForestBerry.png" alt="espresso" class="menu-img">
+                            <div class="name-text">Forest Berry</div>
+                            <div class="inf-text">
+                                Чайный напиток с ягодами
+                                лесных ягод, мятой
+                                и лёгкой кислинкой.
+                            </div>
+                            <div class="price-text">320 руб.</div>
+                        </div>
+                        <div class="element-menu">
+                            <img src="image/tea_img/SpicedTea.png" alt="espresso" class="menu-img">
+                            <div class="name-text">Пряный чай</div>
+                            <div class="inf-text">
+                                Чёрный чай с корицей,
+                                кардамоном, имбирём
+                                и лёгкой пряной сладостью.
+                            </div>
+                            <div class="price-text">340 руб.</div>
+                        </div>
+                    </div>
+                    <div id="menu-drinks">
+                        <div class="element-menu">
+                            <img src="image/drinks_img/BlackOrange.jpg" alt="espresso" class="menu-img">
+                            <div class="name-text">Black Orange</div>
+                            <div class="inf-text">
+                                Эспрессо, апельсин,
+                                тоник и немного ванили,
+                                яркий цитрусовый вкус
+                                с кофейным послевкусием.
+                            </div>
+                            <div class="price-text">390 руб.</div>
+                        </div>
+                        <div class="element-menu">
+                            <img src="image/drinks_img/NoirCloud.jpg" alt="espresso" class="menu-img">
+                            <div class="name-text">Noir Cloud</div>
+                            <div class="inf-text">
+                                Эспрессо, молоко,
+                                ванильный сироп
+                                и нежная сливочная пенка.
+                            </div>
+                            <div class="price-text">420 руб.</div>
+                        </div>
+                        <div class="element-menu">
+                            <img src="image/drinks_img/BerrySmoke.jpg" alt="espresso" class="menu-img">
+                            <div class="name-text">Berry Smoke</div>
+                            <div class="inf-text">
+                                Ягодное пюре,
+                                холодный чай,
+                                розмарин и лёгкая газированность.
+                            </div>
+                            <div class="price-text">380 руб.</div>
+                        </div>
+                        <div class="element-menu">
+                            <img src="image/drinks_img/LavenderTonic.jpg" alt="espresso" class="menu-img">
+                            <div class="name-text">Lavender Tonic</div>
+                            <div class="inf-text">
+                                Эспрессо, тоник, лаванда
+                                и немного лимонного сиропа;
+                                свежий, цветочный и слегка
+                                горьковатый вкус.
+                            </div>
+                            <div class="price-text">400 руб.</div>
+                        </div>
+                    </div>
+                    <div id="menu-deserts">
+                        <div class="element-menu">
+                            <img src="image/deserts_img/DarcChocolateCake.png" alt="espresso" class="menu-img">
+                            <div class="name-text">Dark Chocolate Cake</div>
+                            <div class="inf-text">
+                                Насыщенный шоколадный
+                                бисквит с кремом
+                                из тёмного шоколада.
+                            </div>
+                            <div class="price-text">420 руб.</div>
+                        </div>
+                        <div class="element-menu">
+                            <img src="image/deserts_img/BerryCheescake.png" alt="espresso" class="menu-img">
+                            <div class="name-text">Berry Cheesecake</div>
+                            <div class="inf-text">
+                                Нежный чизкейк с ванильным
+                                кремом и соусом из лесных ягод.
+                            </div>
+                            <div class="price-text">390 руб.</div>
+                        </div>
+                        <div class="element-menu">
+                            <img src="image/deserts_img/CaramelEclair.png" alt="espresso" class="menu-img">
+                            <div class="name-text">Caramel Éclair</div>
+                            <div class="inf-text">
+                                Воздушное заварное тесто,
+                                карамельный крем и тонкий
+                                слой глазури.
+                            </div>
+                            <div class="price-text">340 руб.</div>
+                        </div>
+                        <div class="element-menu">
+                            <img src="image/deserts_img/PistachioTart.png" alt="espresso" class="menu-img">
+                            <div class="name-text">Pistachio Tart</div>
+                            <div class="inf-text">
+                                Нежный фисташковый крем
+                                на хрустящей песочной основе
+                                с тонкой шоколадной глазурью.
+                            </div>
+                            <div class="price-text">430 руб.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="left-side">
+                <div class="left-top-side">
+                    <div class="left-top-side-text">
+                        <div class="about-logo">
+                            Больше, чем
+                            просто кофе
+                        </div>
+                        <div class="about-inf">
+                            NOIR COFFEE - это место, где аромат
+                            свежесваренного кофе встречается
+                            с уютом, вдохновением и хорошей
+                            компанией. Мы верим, что чашка кофе
+                            может стать началом чего-то большего.
+                            будь то важный разговор, новая идея
+                            или просто приятный момент в течение дня.
+                        </div>
+                    </div>
+                    <div>
+                        <img src="image/photos/photo-1.jpg" alt="left-side-photo" class="photo-1">
+                    </div>
+                </div>
+                <div class="left-bottom-side">
+                    <div class="left-bottom-side-logo">
+                        Почему нас выбирают
+                    </div>
+                    <div class="left-bottom-side-texts">
+                        <div class="why-texts">
+                            <div class="text-logo-why">Качественный кофе</div>
+                            <div class="text-inf-why">
+                                Мы используем только
+                                отборные зерна
+                                и тщательно контролируем
+                                кыждый этап приготовления
+                            </div>
+                        </div>
+                        <div class="why-texts">
+                            <div class="text-logo-why">Уютная атмосфера</div>
+                            <div class="text-inf-why">
+                                Продуманное пространство
+                                в котором хочется
+                                остаться подольше
+                            </div>
+                        </div>
+                        <div class="why-texts">
+                            <div class="text-logo-why">Забота о людях</div>
+                            <div class="text-inf-why">
+                                Мы создаем не просто
+                                кофейню, а место, где
+                                каждый чувствует
+                                себя важным.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-side">
+                <img src="image/photos/photo-2.jpg" alt="right-side-photo" class="photo-2">
+            </div>
+        </section>
+    </main>
+    <footer id="contacts">
+        <!-- Футер сайта -->
+        <div class="footer-info">
+            <div class="footer-block-1">
+                <div class="footer-logo">
+                    <div class="up-text">NOIR</div>
+                    <div class="down-text">COFFEE</div>
+                </div>
+                <div class="footer-inf">
+                    Хороший кофе -
+                    это не просто напиток.
+                    Это настроение.
+                </div>
+            </div>
+            <div class="footer-block-2">
+                <div class="footer-logo-2">Контакты</div>
+                <div class="footer-inf-block">
+                    <div>
+                        ул. Ленина, 12
+                        г. Самара
+                    </div>
+                    <div>+7 (999) 123-45-67</div>
+                    <div>
+                        Ежедневно
+                        с 9:00 до 19:00
+                    </div>
+                </div>
+            </div>
+            <div class="footer-block-2">
+                <div class="footer-logo-2">Мы в сотсетях</div>
+                <div class="footer-inf-block">
+                    <div>vk.com/username</div>
+                    <div>t.me/username</div>
+                    <div>instagram.com/username</div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">© 2026 NOIR COFFEE. Все права защищены</div>
+    </footer>
+</body>
+
+</html>

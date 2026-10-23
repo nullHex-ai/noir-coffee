@@ -1,0 +1,473 @@
+@media (max-width: 1100px) {
+    header {
+        gap: 40px;
+    }
+
+    .logo {
+        font-size: 32px;
+    }
+
+    .texts-menu {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .block-menu {
+        margin-left: 80px;
+        margin-right: 80px;
+        width: calc(100% - 160px);
+    }
+
+    #menu-coffee,
+    #menu-tea,
+    #menu-drinks,
+    #menu-deserts {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .menu-img {
+        width: 210px;
+        height: auto;
+    }
+
+    .name-text {
+        font-size: 20px
+    }
+
+    .inf-text {
+        font-size: 15px;
+    }
+
+    .price-text {
+        font-size: 18px;
+    }
+
+    .left-side {
+        margin-left: 80px;
+        gap: 50px;
+    }
+
+    .right-side {
+        margin-right: 80px;
+    }
+
+    .left-top-side {
+        gap: 40px;
+        margin-right: 0;
+    }
+
+    .left-top-side-text {
+        gap: 40px;
+    }
+
+    .left-bottom-side {
+        gap: 50px;
+    }
+
+    .left-bottom-side-texts {
+        gap: 35px;
+    }
+
+    .photo-1 {
+        width: 220px;
+        height: auto;
+    }
+
+    .photo-2 {
+        width: 280px;
+        height: auto;
+    }
+
+    .about-logo {
+        font-size: 44px;
+    }
+
+    .about-inf {
+        font-size: 17px;
+    }
+
+    .left-bottom-side-logo {
+        font-size: 28px;
+    }
+
+    .text-logo-why {
+        font-size: 17px;
+    }
+
+    .text-inf-why {
+        font-size: 16px;
+    }
+
+    .footer-info {
+        gap: 80px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+@media (max-width: 900px) {
+    .main-nav ul {
+        gap: 20px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .logo-hero {
+        margin-left: 40px;
+    }
+
+    .logo-menu {
+        font-size: 50px;
+    }
+
+    .inf-menu {
+        font-size: 18px;
+    }
+
+    .right-text {
+        font-size: 18px;
+    }
+
+    .block-menu {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: calc(100% - 80px);
+    }
+
+    #menu-coffee,
+    #menu-tea,
+    #menu-drinks,
+    #menu-deserts {
+        gap: 20px;
+    }
+
+    .menu-img {
+        width: 190px;
+        height: auto;
+    }
+
+    .name-text {
+        font-size: 18px;
+    }
+
+    .inf-text {
+        font-size: 13px;
+    }
+
+    .price-text {
+        font-size: 16px;
+    }
+
+    .left-side {
+        margin-left: 40px;
+        gap: 35px;
+    }
+
+    .right-side {
+        margin-right: 40px;
+    }
+
+    .left-top-side {
+        gap: 30px;
+        margin-right: 0;
+    }
+
+    .left-top-side-text {
+        gap: 30px;
+    }
+
+    .left-bottom-side {
+        gap: 40px;
+    }
+
+    .left-bottom-side-texts {
+        gap: 25px;
+    }
+
+    .about-logo {
+        font-size: 38px;
+    }
+
+    .about-inf {
+        font-size: 15px;
+    }
+
+    .left-bottom-side-logo {
+        font-size: 25px;
+    }
+
+    .text-logo-why {
+        font-size: 15px;
+    }
+
+    .text-inf-why {
+        font-size: 14px;
+    }
+
+    .footer-info {
+        gap: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        gap: 20px;
+    }
+
+    .logo {
+        font-size: 26px;
+        padding-left: 30px;
+    }
+
+    .logo-hero {
+        width: calc(100% - 80px);
+        font-size: 90px;
+    }
+
+    .btn {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .texts-menu {
+        margin-left: 45px;
+        margin-right: 45px;
+        gap: 40px;
+    }
+
+    .logo-menu {
+        font-size: 42px;
+    }
+
+    .inf-menu {
+        font-size: 16px;
+    }
+
+    .right-text {
+        font-size: 16px;
+    }
+
+    .block-menu {
+        margin-left: 25px;
+        margin-right: 25px;
+        width: calc(100% - 50px);
+    }
+
+    #menu-coffee,
+    #menu-tea,
+    #menu-drinks,
+    #menu-deserts {
+        gap: 10px;
+    }
+
+    .menu-img {
+        width: 170px;
+        height: auto;
+    }
+
+    .name-text {
+        font-size: 16px;
+    }
+
+    .inf-text {
+        font-size: 12px;
+    }
+
+    .left-top-side {
+        display: grid;
+        grid-template-columns: 1fr 220px;
+        column-gap: 30px;
+        row-gap: 25px;
+    }
+
+    .left-top-side-text {
+        display: contents;
+    }
+
+    .about-logo {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .left-top-side>div:last-child {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .about-inf {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .footer-info {
+        gap: 25px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .footer-block-1 {
+        width: 200px;
+    }
+
+    .footer-inf {
+        font-size: 17px;
+    }
+
+    .footer-inf-block div {
+        font-size: 17px;
+    }
+
+    .footer-logo-2 {
+        font-size: 21px;
+    }
+
+    .copyright {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 700px) {
+    header {
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        padding: 15px 20px;
+    }
+
+    .logo-hero {
+        font-size: 60px;
+    }
+
+    .logo-inf {
+        margin-left: 60px;
+    }
+
+    .texts-menu {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    .nav-menu ul {
+        gap: 25px;
+    }
+
+    .nav-menu a {
+        font-size: 18px;
+    }
+
+    #menu-coffee,
+    #menu-tea,
+    #menu-drinks,
+    #menu-deserts {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .element-menu {
+        width: 245px;
+        gap: 15px;
+    }
+
+    .menu-img {
+        width: 245px;
+        height: auto;
+    }
+
+    .name-text {
+        font-size: 22px;
+    }
+
+    .inf-text {
+        font-size: 16px;
+        height: 62px;
+    }
+
+    .price-text {
+        font-size: 20px
+    }
+
+    #about {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .left-side {
+        width: calc(100% - 40px);
+        margin-left: 0;
+        margin-right: 0;
+        align-items: center;
+    }
+
+    .right-side {
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .photo-2 {
+        width: 320px;
+        height: auto;
+    }
+
+    .left-bottom-side {
+        align-items: center;
+        text-align: center;
+    }
+
+    #contacts {
+        height: auto;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-nav a {
+        font-size: 18px;
+    }
+
+    .logo-hero {
+        width: calc(100% - 40px);
+        margin-top: 110px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .logo-inf {
+        margin-left: 40px;
+    }
+
+    .logo-menu {
+        font-size: 32px;
+    }
+
+    .inf-menu {
+        font-size: 15px;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .right-text {
+        font-size: 15px;
+    }
+}
